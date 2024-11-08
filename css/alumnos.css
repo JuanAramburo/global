@@ -42,6 +42,7 @@ th{
     width: 100px;
     margin-bottom: 20px;
     border-radius: 8px;
+    border: 2px solid rgb(247, 242, 242);
 }
 
 #idLimpiar{
@@ -52,8 +53,9 @@ th{
     width: 100px;
     margin-bottom: 20px;
     border-radius: 8px;
+    border: 2px solid rgb(247, 242, 242);
 }
 
 body{
-    background-color: rgb(206, 198, 198);
+    background-color: rgb(247, 242, 242);
 }
