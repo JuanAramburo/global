@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/alumnos.css">
+    <link rel="stylesheet" href="/css/multiplicacion.css">
+    <title>Global Unidad II</title>
+</head>
+<body>
+    <div id="Alumnos">
+        <h1>Lista de Alumnos</h1>
+        <button id="idMostrar">Mostrar tabla</button>
+        <button id="idLimpiar">Limpiar Tabla</button>
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>Matricula</th>
+                    <th>Nombre</th>
+                    <th>Calificacion</th>
+                </tr>
+            </thead>
+            <tbody id="calificacion">
+    
+            </tbody>
+        </table>
+    
+        <p id="promedio"></p>
+        <p id="aprobados"></p>
+        <p id="reprobados"></p>
+
+    </div>
+
+    <br>
+
+    <center>
+    <div id="calculadora">
+        <h2>Calculadora de Tablas de Multiplicar</h2>
+        <span>Selecciona la tabla de multiplicar:</span>
+        <br>
+        <select id="idOpcion">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br>
+        <button id="btnCalcular">Calcular</button>
+        <br>
+        <button id="btnLimpiar">Limpiar</button>
+        <br>
+        <label id="resultado">Resultado:</label>
+    </div>
+    </center>
+<script src="/js/alumnos.js"></script>
+<script src="/js/multiplicacion.js"></script>
+</body>
+</html>
