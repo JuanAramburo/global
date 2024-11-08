@@ -40,6 +40,9 @@ function realizarTabla(){
 
 function limpiarTabla(){
     document.querySelector("tbody").innerHTML = "";
+    document.getElementById("promedio").textContent = "";
+    document.getElementById("aprobados").textContent = "";
+    document.getElementById("reprobados").textContent = "";
 }
 
 function calPromedio(){
@@ -67,7 +70,7 @@ function calcularAprobados() {
 }
 
 btnMostrar.addEventListener("click", realizarTabla);
+btnMostrar.addEventListener("click", calPromedio);
+btnMostrar.addEventListener("click", calcularAprobados);
 Limpiar.addEventListener("click", limpiarTabla);
 
-calPromedio();
-calcularAprobados();
