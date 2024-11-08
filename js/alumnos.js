@@ -33,7 +33,7 @@ const Limpiar = document.getElementById("idLimpiar");
 function realizarTabla(){
     let tabla = document.getElementById("tabla").querySelector("tbody");
     tabla.innerHTML = "";
-    for(let con=0;con<alumnos.length;con++){
+    for(let con = 0; con < alumnos.length; con++){
         tabla.innerHTML += "<td>" + alumnos[con].matricula + "<td>" + alumnos[con].nombre + "<td>" + alumnos[con].calificacion;
     }
 }
@@ -47,7 +47,7 @@ function limpiarTabla(){
 
 function calPromedio(){
     let suma = 0;
-    for(let con=0;con<alumnos.length;con++){
+    for(let con = 0; con < alumnos.length; con++){
         suma += alumnos[con].calificacion;
     }
     let pro = suma / 25;
